@@ -1,0 +1,12 @@
+dist/
+node_modules/
+__pycache__/
+missing_thumbs.txt
+
+# source projects are their own repos (see README)
+loops/
+three_js_sketch_server/
+three_hundred_days/
+
+# local only: references the server
+deploy.sh

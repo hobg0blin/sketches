@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>sketches</title>
+<style>
+  body { font-family: "Times New Roman", serif; margin: 2rem; background: #fff; color: #000; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1.5rem; }
+  .grid > a, .grid > .card { color: inherit; text-decoration: none; display: flex; flex-direction: column; }
+  .grid img, .noimg { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; background: #eee; }
+  .title { margin-top: .4rem; }
+  .date { color: #666; font-size: .9em; }
+  .section { grid-column: 1 / -1; }
+  .broken { display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; color: #900; }
+  .grid > a:hover .title { text-decoration: underline; }
+</style>
+</head>
+<body>
+<h1>sketches</h1>
+<p>
+I intermittently do <a href="https://blog.bront.rodeo/on-100-days-of-making/">100 days</a> projects.
+<ul>
+<li><a href="#threejs">2022: three.js</a></li>
+  <li><a href="#website">2022: "website"</a></li>
+<li><a href="#loops">2023: loops</a></li>
+  <li>2024: banjo</li>
+  <li>2025: writing (DNF'ed around day 70)</li>
+  </ul>
+      You can find the artifacts from the more public/visual versions of these here. Dates reflect when I committed them to git, not necessarily when they were made. Anything writing-related is on <a href="https://blog.bront.rodeo">my blog</a>, and the videos of me practicing banjo will mercifully remain private forever. Should I ever manage to keep up a sketching practice without forcing myself to do it every day, it would go here, but so far that hasn't happened.</p>
+<div class="grid">
+{cards}
+</div>
+
+</body>
+</html>
